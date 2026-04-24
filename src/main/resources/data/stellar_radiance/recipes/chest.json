@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stellar_radiance:stellar_ingot"
+    },
+    "b": {
+      "item": "stellar_radiance:stellarcrystal"
+    }
+  },
+  "result": {
+    "item": "stellar_radiance:stellar_armor_chestplate",
+    "count": 1
+  }
+}

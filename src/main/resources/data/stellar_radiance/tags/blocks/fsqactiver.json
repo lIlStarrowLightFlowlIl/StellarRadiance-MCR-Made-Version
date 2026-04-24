@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:redstone_block",
+    "stellar_radiance:stellar_crystal_block",
+    "minecraft:beacon"
+  ]
+}

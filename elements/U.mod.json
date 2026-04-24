@@ -1,0 +1,15 @@
+{
+  "_fv": 60,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "U",
+    "keyBindingName": "空白触发器6",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Anxia6"
+    },
+    "onKeyReleased": {
+      "name": "Songkai6"
+    }
+  }
+}

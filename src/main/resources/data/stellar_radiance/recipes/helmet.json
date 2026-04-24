@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "stellar_radiance:stellar_ingot"
+    }
+  },
+  "result": {
+    "item": "stellar_radiance:stellar_armor_helmet",
+    "count": 1
+  }
+}

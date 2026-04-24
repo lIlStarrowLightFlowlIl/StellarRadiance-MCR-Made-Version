@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "stellar_radiance:block/stellar_radiance_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "stellar_radiance:item/stellar_radiance"
+  },
+    "overrides":[
+        {
+            "predicate":{
+                "custom_model_data":114
+            },
+            "model":"stellar_radiance:item/yxh_glowing"
+        }
+    ]
+}

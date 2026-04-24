@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "stellar_radiance:stellar_radience_branch"
+    },
+    "title": {
+      "translate": "advancements.xinhuizhiyu.title"
+    },
+    "description": {
+      "translate": "advancements.xinhuizhiyu.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "xinhuizhiyu_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "stellar_radiance:stellar_radiance_dimention"
+      }
+    }
+  },
+  "parent": "stellar_radiance:nadao_hexin"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "stellar_radiance:structure_feature",
+  "config": {
+    "structure": "stellar_radiance:crystal4",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_void",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

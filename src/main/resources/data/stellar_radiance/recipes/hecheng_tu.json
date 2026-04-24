@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stellar_radiance:stellarcrystal"
+    }
+  ],
+  "result": {
+    "item": "stellar_radiance:stellar_crystalash",
+    "count": 4
+  }
+}

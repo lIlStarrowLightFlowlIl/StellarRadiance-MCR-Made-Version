@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "stellar_radiance:stellarcrystal"
+    },
+    "title": {
+      "translate": "advancements.crystal.title"
+    },
+    "description": {
+      "translate": "advancements.crystal.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crystal_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stellar_radiance:stellarcrystal"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1145
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "stellar_radiance:hecheng_tu",
+      "stellar_radiance:stellar_ingot",
+      "stellar_radiance:jingjiagong_crystal",
+      "stellar_radiance:kzq",
+      "stellar_radiance:lengjing"
+    ]
+  },
+  "parent": "stellar_radiance:stellar_radiance_forest"
+}

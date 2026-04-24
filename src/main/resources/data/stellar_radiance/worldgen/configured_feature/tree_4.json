@@ -1,0 +1,13 @@
+{
+  "type": "stellar_radiance:structure_feature",
+  "config": {
+    "structure": "stellar_radiance:tree_4",
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      0,
+      -5,
+      0
+    ]
+  }
+}

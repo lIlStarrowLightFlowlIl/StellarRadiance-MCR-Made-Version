@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "stellar_radiance:stellar_ingot"
+    },
+    "b": {
+      "item": "stellar_radiance:shattered_stellar_crystal_core"
+    },
+    "c": {
+      "item": "stellar_radiance:iron_stick"
+    }
+  },
+  "result": {
+    "item": "stellar_radiance:basic_stellar_spear",
+    "count": 1
+  }
+}

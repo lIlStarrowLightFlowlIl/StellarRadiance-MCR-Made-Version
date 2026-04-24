@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "stellar_radiance:block/stellar_ore_on_ground"
+    }
+  }
+}

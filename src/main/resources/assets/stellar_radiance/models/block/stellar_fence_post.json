@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "stellar_radiance:block/stellar_radiance_planks",
+    "particle": "stellar_radiance:block/stellar_radiance_planks"
+  },
+  "render_type": "solid"
+}

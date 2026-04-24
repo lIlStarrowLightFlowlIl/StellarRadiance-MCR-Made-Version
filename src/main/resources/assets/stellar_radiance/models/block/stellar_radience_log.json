@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stellar_radiance:block/stellar_log_top",
+    "up": "stellar_radiance:block/stellar_log_top",
+    "north": "stellar_radiance:block/stellar_radience_log",
+    "east": "stellar_radiance:block/stellar_radience_log",
+    "south": "stellar_radiance:block/stellar_radience_log",
+    "west": "stellar_radiance:block/stellar_radience_log",
+    "particle": "stellar_radiance:block/stellar_log_top"
+  },
+  "render_type": "cutout"
+}

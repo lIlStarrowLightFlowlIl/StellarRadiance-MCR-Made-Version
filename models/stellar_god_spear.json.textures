@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": ""
+      },
+      "name": "default"
+    },
+    "gods_spear": {
+      "map": {
+        "0": ""
+      },
+      "name": "gods_spear"
+    }
+  }
+}
