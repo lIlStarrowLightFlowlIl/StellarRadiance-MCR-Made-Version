@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "x_2_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "stellar_radiance:root"
+}

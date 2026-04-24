@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "stellar_radiance:textures/screens/background.png",
+    "icon": {
+      "item": "stellar_radiance:stellar_radiance"
+    },
+    "title": {
+      "translate": "advancements.root.title"
+    },
+    "description": {
+      "translate": "advancements.root.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "root_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "stellar_radiance:get_the_book"
+    ]
+  }
+}

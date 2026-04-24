@@ -1,0 +1,14 @@
+{
+  "rewards": {
+    "function": "stellar_radiance:book"
+  },
+  "criteria": {
+    "book_get": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+      	"recipe_id": "stellar_radiance:get_the_book"
+      	}
+    }
+  },
+  "parent": "stellar_radiance:root"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "stellar_radiance:stellar_radiance"
+    },
+    "b": {
+      "item": "stellar_radiance:stellar_radience_branch"
+    },
+    "c": {
+      "item": "stellar_radiance:basic_stellar_spear"
+    },
+    "d": {
+      "item": "stellar_radiance:shattered_stellar_crystal_core"
+    },
+    "e": {
+      "item": "stellar_radiance:stellar_radiance_feather"
+    }
+  },
+  "result": {
+    "item": "stellar_radiance:stellar_god_spear",
+    "count": 1
+  }
+}

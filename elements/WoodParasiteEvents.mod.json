@@ -1,0 +1,12 @@
+{
+  "_fv": 60,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "星辉木寄生兽生成",
+    "description": "为false的时候，禁用生成寄生兽的检测",
+    "category": "MOBS",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

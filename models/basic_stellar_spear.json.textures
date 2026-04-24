@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": ""
+      },
+      "name": "default"
+    },
+    "basic_stellar_spear": {
+      "map": {
+        "0": ""
+      },
+      "name": "basic_stellar_spear"
+    }
+  }
+}

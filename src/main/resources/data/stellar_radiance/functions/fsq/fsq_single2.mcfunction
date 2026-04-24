@@ -1,0 +1,1 @@
+particle minecraft:electric_spark ~ ~ ~ 0 0 0 0 0 force

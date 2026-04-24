@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stellar_radiance:stellar_crystal_lands",
+  "features": "stellar_radiance:ore_set_crystal_lands",
+  "step": "surface_structures"
+}

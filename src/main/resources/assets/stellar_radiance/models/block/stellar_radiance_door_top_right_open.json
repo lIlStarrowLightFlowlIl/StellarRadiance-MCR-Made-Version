@@ -1,0 +1,8 @@
+{
+  "parent": "block/door_top_right_open",
+  "textures": {
+    "bottom": "stellar_radiance:block/door_bottom",
+    "top": "stellar_radiance:block/door_top"
+  },
+  "render_type": "cutout"
+}

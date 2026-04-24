@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stellar_radiance:stellar_radiance_planks"
+    }
+  },
+  "result": {
+    "item": "stellar_radiance:stellar_trap_door",
+    "count": 2
+  }
+}

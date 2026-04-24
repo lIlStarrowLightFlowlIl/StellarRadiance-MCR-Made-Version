@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "stellar_radiance:blocks/stellar_radiance_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stellar_radiance:stellar_radiance_door",
+          "conditions": [
+            {
+              "block": "stellar_radiance:stellar_radiance_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

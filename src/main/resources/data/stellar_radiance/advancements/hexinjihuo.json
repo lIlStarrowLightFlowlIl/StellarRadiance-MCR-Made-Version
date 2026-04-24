@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "hexinjihuo_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stellar_radiance:stellar_chest"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1145
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "stellar_radiance:hexin_1"
+    ]
+  },
+  "parent": "stellar_radiance:root"
+}

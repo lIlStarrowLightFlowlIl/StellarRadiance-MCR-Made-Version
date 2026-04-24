@@ -1,0 +1,9 @@
+{
+  "parent": "stellar_radiance:custom/crystal_wireless_transmitter",
+  "textures": {
+    "all": "stellar_radiance:block/crystal_wireless_transmitter",
+    "particle": "stellar_radiance:block/crystal_wireless_transmitter",
+    "0": "stellar_radiance:block/crystal_wireless_transmitter"
+  },
+  "render_type": "solid"
+}

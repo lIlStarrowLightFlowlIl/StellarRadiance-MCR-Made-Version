@@ -1,0 +1,38 @@
+{
+  "_fv": 60,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "星影合金锭",
+    "achievementDescription": "合成星影合金锭 ",
+    "achievementIcon": {
+      "value": "CUSTOM:StellarIngot"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "ShaoStellarIngot",
+      "WeijihuoStellarHexin",
+      "BasicSpear",
+      "Helmet",
+      "Jizuo",
+      "Chest",
+      "ShenQiang",
+      "Legging",
+      "Boot",
+      "Dizuo",
+      "Fsq",
+      "Jsq"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 10,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Crystal"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"item_in_inventory\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1145</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:StellarIngot</field></block></value></block></next></block></xml>"
+  }
+}

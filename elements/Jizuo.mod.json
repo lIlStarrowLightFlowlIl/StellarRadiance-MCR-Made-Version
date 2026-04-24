@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StellarIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Stellarcrystal"
+      },
+      {
+        "value": "CUSTOM:StellarIngot"
+      },
+      {
+        "value": "CUSTOM:Stellarcrystal"
+      },
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": "Blocks.STONE#6"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Stellardizuo"
+    },
+    "name": "jizuo",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_fv": 60,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "V",
+    "keyBindingName": "空白触发器2-摇动",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Anxia2"
+    },
+    "onKeyReleased": {
+      "name": "Songkai2"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 60,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "你过关！",
+    "achievementDescription": "击败星辰能量节点，并拿到破碎的核心……你需要一个容器让它正常工作",
+    "achievementIcon": {
+      "value": "CUSTOM:ShatteredStellarCrystalCore"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "Jihuodehexincraft"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:ZhaoHuanBoss"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"item_in_inventory\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1145</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:ShatteredStellarCrystalCore</field></block></value></block></next></block></xml>"
+  }
+}

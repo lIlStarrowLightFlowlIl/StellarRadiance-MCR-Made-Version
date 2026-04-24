@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "woodcraft_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stellar_radiance:stellar_radience_log"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1145
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "stellar_radiance:staircraft",
+      "stellar_radiance:slabcraft",
+      "stellar_radiance:doorcraft",
+      "stellar_radiance:door_craft_1",
+      "stellar_radiance:crystalshao",
+      "stellar_radiance:hechengmuban"
+    ]
+  },
+  "parent": "stellar_radiance:root"
+}
