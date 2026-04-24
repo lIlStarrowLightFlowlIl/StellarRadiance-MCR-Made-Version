@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "stellar_radiance:stellar_ingot"
+    },
+    "b": {
+      "item": "minecraft:cobblestone"
+    },
+    "c": {
+      "item": "stellar_radiance:processed_stellar_crystal"
+    },
+    "d": {
+      "item": "minecraft:iron_ingot"
+    },
+    "e": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "stellar_radiance:crystal_wireless_recever",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "stellar_radiance:stellarcrystal"
+    },
+    "b": {
+      "item": "stellar_radiance:crushed_slime_ball"
+    }
+  },
+  "result": {
+    "item": "stellar_radiance:stellar_crystal_nature",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "stellar_radiance:stellar_crystal_lands",
+    "stellar_radiance:stellar_plains",
+    "stellar_radiance:stellar_radience_forest"
+  ],
+  "features": "stellar_radiance:stellar_ore_set",
+  "step": "surface_structures"
+}

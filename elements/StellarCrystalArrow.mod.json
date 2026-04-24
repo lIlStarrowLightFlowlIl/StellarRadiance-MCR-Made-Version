@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:BasicStellarSpear"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "block.beacon.power_select"
+    },
+    "igniteFire": false,
+    "power": 2.0,
+    "damage": 3.0,
+    "knockback": 5,
+    "entityModel": "Modelstellar_crystal_arrow",
+    "customModelTexture": "stellar_crystal_arrow.png",
+    "onFlyingTick": {
+      "name": "ArrowTick"
+    }
+  }
+}

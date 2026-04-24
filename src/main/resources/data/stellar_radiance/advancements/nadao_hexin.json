@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "stellar_radiance:stellar_chest_filled"
+    },
+    "title": {
+      "translate": "advancements.nadao_hexin.title"
+    },
+    "description": {
+      "translate": "advancements.nadao_hexin.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nadao_hexin_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stellar_radiance:stellar_chest_filled"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1145
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stellar_radiance:da_ying_shou_wei"
+}

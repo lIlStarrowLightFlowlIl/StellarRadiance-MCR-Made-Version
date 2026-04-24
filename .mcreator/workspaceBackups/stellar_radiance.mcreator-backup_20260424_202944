@@ -1,0 +1,4857 @@
+{
+  "mod_elements": [
+    {
+      "name": "Yxhspawn",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yxhspawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/YxhspawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entity/liucheng"
+    },
+    {
+      "name": "Yxhdie",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yxhdie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/YxhdieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entity/liucheng"
+    },
+    {
+      "name": "Yxhspeak",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yxhspeak",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/YxhspeakProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entity/liucheng"
+    },
+    {
+      "name": "Yxhhurt",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yxhhurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/YxhhurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entity/liucheng"
+    },
+    {
+      "name": "StellarImpreaction",
+      "type": "damagetype",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_impreaction",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/damage_type/stellar_impreaction.json"
+        ]
+      },
+      "path": "~/damage"
+    },
+    {
+      "name": "Impreaction_tick",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impreaction_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Impreaction_tickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/effect/liucheng"
+    },
+    {
+      "name": "Imprecation",
+      "type": "potioneffect",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imprecation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/potion/ImprecationMobEffect.java"
+        ]
+      },
+      "path": "~/effect"
+    },
+    {
+      "name": "ClearDeadEntities",
+      "type": "gamerule",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear_dead_entities",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/gamerule"
+    },
+    {
+      "name": "CDEwhenTure",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cd_ewhen_ture",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/CDEwhenTureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gamerule/liucheng"
+    },
+    {
+      "name": "Removeentityrun",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "removeentityrun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/RemoveentityrunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/command/liucheng"
+    },
+    {
+      "name": "Removeentity",
+      "type": "command",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "removeentity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/command/RemoveentityCommand.java"
+        ]
+      },
+      "path": "~/command"
+    },
+    {
+      "name": "FallingBallHurt",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falling_ball_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/FallingBallHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/entity/liucheng"
+    },
+    {
+      "name": "Abletofly",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abletofly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/AbletoflyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/command/liucheng"
+    },
+    {
+      "name": "StellarRadienceForest",
+      "type": "biome",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_radience_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/worldgen/biome/stellar_radience_forest.json"
+        ]
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "StellarOreSet",
+      "type": "feature",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_ore_set",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/stellar_ore_set_biome_modifier.json",
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/stellar_ore_set.json",
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/stellar_ore_set.json"
+        ]
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "Stellarcrystal",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellarcrystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/item/StellarcrystalItem.java",
+          "src/main/resources/assets/stellar_radiance/models/item/stellarcrystal.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "StellarOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/block/StellarOreBlock.java",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_ore.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_ore.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_ore.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_ore.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "DeepslateStellarOre",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_stellar_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/deepslate_stellar_ore.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/deepslate_stellar_ore.json",
+          "src/main/resources/assets/stellar_radiance/models/item/deepslate_stellar_ore.json",
+          "src/main/java/net/mcreator/stellarradiance/block/DeepslateStellarOreBlock.java",
+          "src/main/resources/assets/stellar_radiance/models/block/deepslate_stellar_ore.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "StellarIngot",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/item/StellarIngotItem.java",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_ingot.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "ShaoStellarIngot",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shao_stellar_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/stellar_ingot.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "StellarRadienceLog",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_radience_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/block/StellarRadienceLogBlock.java",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_radience_log.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_radience_log.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_radience_log.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radience_log.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "StellarRadienceLeaves",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_radience_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_radience_leaves.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_radience_leaves.json",
+          "src/main/java/net/mcreator/stellarradiance/block/StellarRadienceLeavesBlock.java",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_radience_leaves.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radience_leaves.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "LeavesGlow",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaves_glow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/LeavesGlowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block/liucheng"
+    },
+    {
+      "name": "StellarFlower",
+      "type": "plant",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/stellar_flower.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_flower.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_flower.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_flower.json",
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/stellar_flower_biome_modifier.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_flower.json",
+          "src/main/java/net/mcreator/stellarradiance/block/StellarFlowerBlock.java",
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/stellar_flower.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "StellarRadienceBranch",
+      "type": "plant",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_radience_branch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/block/StellarRadienceBranchBlock.java",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_radience_branch.json",
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/stellar_radience_branch.json",
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/stellar_radience_branch_biome_modifier.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radience_branch.json",
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/stellar_radience_branch.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_radience_branch.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_radience_branch.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "StellarRadianceFeather",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_radiance_feather",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_radiance_feather.json",
+          "src/main/java/net/mcreator/stellarradiance/item/StellarRadianceFeatherItem.java"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "NexusDie",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_die",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/NexusDieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entity/liucheng"
+    },
+    {
+      "name": "ShatteredStellarCrystalCore",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shattered_stellar_crystal_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/item/ShatteredStellarCrystalCoreItem.java",
+          "src/main/resources/assets/stellar_radiance/models/item/shattered_stellar_crystal_core.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "IronStick",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/iron_stick.json",
+          "src/main/java/net/mcreator/stellarradiance/item/IronStickItem.java"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "StellarCrystalArrow",
+      "type": "projectile",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_crystal_arrow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/client/renderer/StellarCrystalArrowRenderer.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/StellarCrystalArrowEntity.java"
+        ]
+      },
+      "path": "~/entity"
+    },
+    {
+      "name": "ArrowTick",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/ArrowTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entity/liucheng"
+    },
+    {
+      "name": "ArrowShoot",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_shoot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/ArrowShootProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item/liucheng"
+    },
+    {
+      "name": "BasicStellarSpear",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "basic_stellar_spear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/item/BasicStellarSpearItem.java",
+          "src/main/resources/assets/stellar_radiance/models/item/basic_stellar_spear.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "BasicSpear",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/basic_spear.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "IronStickCraft",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stick_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/iron_stick_craft.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "StellarRadiance",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stellar_radiance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/item/StellarRadianceItem.java",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_radiance.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "Root",
+      "type": "achievement",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "root",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/root.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "StellarRadianceForest",
+      "type": "achievement",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_radiance_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/stellar_radiance_forest.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "Crystal",
+      "type": "achievement",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/crystal.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "StellarChest",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_chest.json",
+          "src/main/java/net/mcreator/stellarradiance/item/StellarChestItem.java"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "StellarChestFilled",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_chest_filled",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/item/StellarChestFilledItem.java",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_chest_filled.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "JiHuoDeHexin",
+      "type": "livingentity",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ji_huo_de_hexin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/client/renderer/JiHuoDeHexinRenderer.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/JiHuoDeHexinEntity.java"
+        ]
+      },
+      "path": "~/entity"
+    },
+    {
+      "name": "JihuoChuansongmen",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jihuo_chuansongmen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/JihuoChuansongmenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block/liucheng"
+    },
+    {
+      "name": "Stellardizuo",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellardizuo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/block/StellardizuoBlock.java",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellardizuo.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellardizuo.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellardizuo.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellardizuo.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "Chuansong",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chuansong",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/ChuansongProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/entity/liucheng"
+    },
+    {
+      "name": "WeijihuoStellarHexin",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weijihuo_stellar_hexin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/weijihuo_stellar_hexin.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Jihuodehexincraft",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jihuodehexincraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/jihuodehexincraft.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "StellarRadianceDimention",
+      "type": "dimension",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stellar_radiance_dimention",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/world/dimension/StellarRadianceDimentionDimension.java",
+          "src/main/resources/data/stellar_radiance/dimension/stellar_radiance_dimention.json",
+          "src/main/resources/data/stellar_radiance/dimension_type/stellar_radiance_dimention.json"
+        ]
+      },
+      "path": "~/dimention"
+    },
+    {
+      "name": "ClearMen",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear_men",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/ClearMenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entity/liucheng"
+    },
+    {
+      "name": "Hejin",
+      "type": "achievement",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hejin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/hejin.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "NadaoHexin",
+      "type": "achievement",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nadao_hexin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/nadao_hexin.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "ChiHejin",
+      "type": "achievement",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chi_hejin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/chi_hejin.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "StellarRadiancePlanks",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_radiance_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/block/StellarRadiancePlanksBlock.java",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_radiance_planks.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_planks.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_radiance_planks.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_radiance_planks.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "StellarRadianceSlab",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_radiance_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/block/StellarRadianceSlabBlock.java",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_slab.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_radiance_slab.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_slab_full.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_radiance_slab.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_slab_top.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_radiance_slab.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "StellarRadianceStairs",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_radiance_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/block/StellarRadianceStairsBlock.java",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_radiance_stairs.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_radiance_stairs.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_stairs_inner.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_radiance_stairs.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_stairs.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_stairs_outer.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "StellarStone",
+      "type": "feature",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/stellar_stone_biome_modifier.json",
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/stellar_stone.json",
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/stellar_stone.json"
+        ]
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "StellarRadianceDoor",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_radiance_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_door_bottom_right.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_door_top_left_open.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_door_top_right_open.json",
+          "src/main/java/net/mcreator/stellarradiance/block/StellarRadianceDoorBlock.java",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_door_top_right.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_door_bottom_left_open.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_radiance_door.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_radiance_door.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_door_bottom_left.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_door_bottom_right_open.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_door_top_left.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_radiance_door.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "Doorcraft",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/doorcraft.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "DoorCraft1",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "door_craft_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/door_craft_1.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Slabcraft",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/slabcraft.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Staircraft",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staircraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/staircraft.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "StellarCrystalash",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_crystalash",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_crystalash.json",
+          "src/main/java/net/mcreator/stellarradiance/item/StellarCrystalashItem.java"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "Crystalshao",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalshao",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/crystalshao.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "ChiXingchen",
+      "type": "achievement",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chi_xingchen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/chi_xingchen.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "Star",
+      "type": "particle",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/client/particle/StarParticle.java",
+          "src/main/resources/assets/stellar_radiance/particles/star.json"
+        ]
+      },
+      "path": "~/particle"
+    },
+    {
+      "name": "StellarExplosion",
+      "type": "particle",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/client/particle/StellarExplosionParticle.java",
+          "src/main/resources/assets/stellar_radiance/particles/stellar_explosion.json"
+        ]
+      },
+      "path": "~/particle"
+    },
+    {
+      "name": "StellarExplosion2",
+      "type": "particle",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_explosion_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/client/particle/StellarExplosion2Particle.java",
+          "src/main/resources/assets/stellar_radiance/particles/stellar_explosion_2.json"
+        ]
+      },
+      "path": "~/particle"
+    },
+    {
+      "name": "StellarRadianceTAB",
+      "type": "tab",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_radiance_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/command"
+    },
+    {
+      "name": "Largestar",
+      "type": "particle",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "largestar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/client/particle/LargestarParticle.java",
+          "src/main/resources/assets/stellar_radiance/particles/largestar.json"
+        ]
+      },
+      "path": "~/particle"
+    },
+    {
+      "name": "StellarFloatingTree",
+      "type": "feature",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_floating_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/stellar_floating_tree.json",
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/stellar_floating_tree.json",
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/stellar_floating_tree_biome_modifier.json"
+        ]
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "StellarSmallTree",
+      "type": "feature",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_small_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/stellar_small_tree.json",
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/stellar_small_tree.json",
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/stellar_small_tree_biome_modifier.json"
+        ]
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "FloatingStellarRadianceTreeRoot",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floating_stellar_radiance_tree_root",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/floating_stellar_radiance_tree_root.json",
+          "src/main/resources/assets/stellar_radiance/models/block/floating_stellar_radiance_tree_root.json",
+          "src/main/resources/assets/stellar_radiance/models/item/floating_stellar_radiance_tree_root.json",
+          "src/main/java/net/mcreator/stellarradiance/block/FloatingStellarRadianceTreeRootBlock.java",
+          "src/main/resources/assets/stellar_radiance/blockstates/floating_stellar_radiance_tree_root.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "BiomeDust",
+      "type": "particle",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biome_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/particles/biome_dust.json",
+          "src/main/java/net/mcreator/stellarradiance/client/particle/BiomeDustParticle.java"
+        ]
+      },
+      "path": "~/particle"
+    },
+    {
+      "name": "HechengTu",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hecheng_tu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/hecheng_tu.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Anxia1",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anxia_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Anxia1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "Songkai1",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "songkai_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Songkai1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "R",
+      "type": "keybind",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/network/RMessage.java"
+        ]
+      },
+      "path": "~/command/anjian"
+    },
+    {
+      "name": "V",
+      "type": "keybind",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/network/VMessage.java"
+        ]
+      },
+      "path": "~/command/anjian"
+    },
+    {
+      "name": "X",
+      "type": "keybind",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/network/XMessage.java"
+        ]
+      },
+      "path": "~/command/anjian"
+    },
+    {
+      "name": "Z",
+      "type": "keybind",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "z",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/network/ZMessage.java"
+        ]
+      },
+      "path": "~/command/anjian"
+    },
+    {
+      "name": "B",
+      "type": "keybind",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/network/BMessage.java"
+        ]
+      },
+      "path": "~/command/anjian"
+    },
+    {
+      "name": "CrystalTick",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/CrystalTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block/liucheng"
+    },
+    {
+      "name": "StellarCrystalBlock",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_crystal_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/block/StellarCrystalBlockBlock.java",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_crystal_block.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_crystal_block.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_crystal_block.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_crystal_block.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "ShenQiang",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shen_qiang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/shen_qiang.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "DaYingShouWei",
+      "type": "achievement",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "da_ying_shou_wei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/da_ying_shou_wei.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "Xinhuizhiyu",
+      "type": "achievement",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xinhuizhiyu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/xinhuizhiyu.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "Yujin",
+      "type": "achievement",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yujin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/yujin.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "ShenDeWuQi",
+      "type": "achievement",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shen_de_wu_qi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/shen_de_wu_qi.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "Contrail",
+      "type": "particle",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "contrail",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/particles/contrail.json",
+          "src/main/java/net/mcreator/stellarradiance/client/particle/ContrailParticle.java"
+        ]
+      },
+      "path": "~/particle"
+    },
+    {
+      "name": "NexusExplosionWhenDie",
+      "type": "gamerule",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_explosion_when_die",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/gamerule"
+    },
+    {
+      "name": "StellarBarrier",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_barrier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/block/StellarBarrierBlock.java",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_barrier.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_barrier.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_barrier.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "EnableEntityClearance",
+      "type": "gamerule",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enable_entity_clearance",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      },
+      "path": "~/gamerule"
+    },
+    {
+      "name": "LargeContrail",
+      "type": "particle",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_contrail",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/particles/large_contrail.json",
+          "src/main/java/net/mcreator/stellarradiance/client/particle/LargeContrailParticle.java"
+        ]
+      },
+      "path": "~/particle"
+    },
+    {
+      "name": "Hechengmuban",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hechengmuban",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/hechengmuban.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Shugen",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shugen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/shugen.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Jizuo",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jizuo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/jizuo.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Woodcraft",
+      "type": "achievement",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/woodcraft.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "Hexinjihuo",
+      "type": "achievement",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hexinjihuo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/hexinjihuo.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "Spear",
+      "type": "achievement",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/spear.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "Jizhong",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jizhong",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/JizhongProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item/liucheng/godspear"
+    },
+    {
+      "name": "Logshao",
+      "type": "itemextension",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logshao",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "Rootshao",
+      "type": "itemextension",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rootshao",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "Planksshao",
+      "type": "itemextension",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planksshao",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "Slabshao",
+      "type": "itemextension",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slabshao",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "Stairsshao",
+      "type": "itemextension",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stairsshao",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "Anxia2",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anxia_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Anxia2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "Songkai2",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "songkai_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Songkai2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "Anxia3",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anxia_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Anxia3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "Songkai3",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "songkai_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Songkai3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "Anxia4",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anxia_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Anxia4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "Songkai4",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "songkai_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Songkai4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "Anxia5",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anxia_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Anxia5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "Songkai5",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "songkai_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Songkai5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "Helmet",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/helmet.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Chest",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/chest.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Legging",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legging",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/legging.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Boot",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/boot.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Xianglian",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xianglian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/XianglianProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item/liucheng"
+    },
+    {
+      "name": "Shouzhuo",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shouzhuo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/ShouzhuoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item/liucheng"
+    },
+    {
+      "name": "KILL",
+      "type": "command",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/command/KILLCommand.java"
+        ]
+      },
+      "path": "~/command"
+    },
+    {
+      "name": "KILLrun",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kil_lrun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/KILLrunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/command/liucheng"
+    },
+    {
+      "name": "StellarBlock",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_block.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_block.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_block.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_block.json",
+          "src/main/java/net/mcreator/stellarradiance/block/StellarBlockBlock.java"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "StellarBlockCraft",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/stellar_block_craft.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "FenjieBlock",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fenjie_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/fenjie_block.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "StellarPlains",
+      "type": "biome",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/worldgen/biome/stellar_plains.json"
+        ]
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "ABlock",
+      "type": "livingentity",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/client/renderer/ABlockRenderer.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/ABlockEntity.java"
+        ]
+      },
+      "path": "~/entity"
+    },
+    {
+      "name": "StellarCrystalLands",
+      "type": "biome",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_crystal_lands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/worldgen/biome/stellar_crystal_lands.json"
+        ]
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "StellarCrystalBlockNature",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_crystal_block_nature",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/block/StellarCrystalBlockNatureBlock.java",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_crystal_block_nature.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_crystal_block_nature.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_crystal_block_nature.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_crystal_block_nature.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "StellarCrystalNature",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_crystal_nature",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_crystal_nature.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_crystal_nature.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_crystal_nature.json",
+          "src/main/java/net/mcreator/stellarradiance/block/StellarCrystalNatureBlock.java",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_crystal_nature.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "OreSetCrystalLands",
+      "type": "feature",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_set_crystal_lands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/ore_set_crystal_lands.json",
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/ore_set_crystal_lands.json",
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/ore_set_crystal_lands_biome_modifier.json"
+        ]
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "StellarGravel",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_gravel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_gravel.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_gravel.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_gravel.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_gravel.json",
+          "src/main/java/net/mcreator/stellarradiance/block/StellarGravelBlock.java"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "StellarGravelStone",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_gravel_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_gravel_stone.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_gravel_stone.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_gravel_stone.json",
+          "src/main/java/net/mcreator/stellarradiance/block/StellarGravelStoneBlock.java",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_gravel_stone.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "StellarOreOnGround",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_ore_on_ground",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/block/StellarOreOnGroundBlock.java",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_ore_on_ground.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_ore_on_ground.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_ore_on_ground.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_ore_on_ground.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "ModEntitySpeaking",
+      "type": "gamerule",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_entity_speaking",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/gamerule"
+    },
+    {
+      "name": "CrushedSlimeBall",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_slime_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/item/CrushedSlimeBallItem.java",
+          "src/main/resources/assets/stellar_radiance/models/item/crushed_slime_ball.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "CrystalZhan",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_zhan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/crystal_zhan.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "AmZhan",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "am_zhan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/am_zhan.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Yxh",
+      "type": "animatedentity",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yxh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/yxh_spawn_egg.json",
+          "src/main/java/net/mcreator/stellarradiance/entity/YxhEntity.java",
+          "src/main/java/net/mcreator/stellarradiance/client/renderer/YxhRenderer.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/layer/YxhLayer.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/model/YxhModel.java"
+        ]
+      },
+      "path": "~/entity"
+    },
+    {
+      "name": "StellarRadianceBird",
+      "type": "animatedentity",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_radiance_bird",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/entity/StellarRadianceBirdEntity.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/model/StellarRadianceBirdModel.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/layer/StellarRadianceBirdLayer.java",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_radiance_bird_spawn_egg.json",
+          "src/main/java/net/mcreator/stellarradiance/client/renderer/StellarRadianceBirdRenderer.java",
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/stellar_radiance_bird_biome_modifier.json"
+        ]
+      },
+      "path": "~/entity"
+    },
+    {
+      "name": "Slime",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/slime.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "RemoveThisEntity",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/RemoveThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/command/liucheng"
+    },
+    {
+      "name": "Crystal2",
+      "type": "feature",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/crystal_2_biome_modifier.json",
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/crystal_2.json",
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/crystal_2.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "StellarDirt",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_dirt.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_dirt.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_dirt.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_dirt.json",
+          "src/main/java/net/mcreator/stellarradiance/block/StellarDirtBlock.java"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "Crystal1",
+      "type": "feature",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/crystal_1.json",
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/crystal_1.json",
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/crystal_1_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "Crystal3",
+      "type": "feature",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/crystal_3.json",
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/crystal_3_biome_modifier.json",
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/crystal_3.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "Crystal4",
+      "type": "feature",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/crystal_4.json",
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/crystal_4.json",
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/crystal_4_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "SmallContrail",
+      "type": "particle",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_contrail",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/particles/small_contrail.json",
+          "src/main/java/net/mcreator/stellarradiance/client/particle/SmallContrailParticle.java"
+        ]
+      },
+      "path": "~/particle"
+    },
+    {
+      "name": "RunCommandRun",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "run_command_run",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/RunCommandRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/command/liucheng"
+    },
+    {
+      "name": "RunCommand",
+      "type": "command",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "run_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/command/RunCommandCommand.java"
+        ]
+      },
+      "path": "~/command"
+    },
+    {
+      "name": "U",
+      "type": "keybind",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/network/UMessage.java"
+        ]
+      },
+      "path": "~/command/anjian"
+    },
+    {
+      "name": "Anxia6",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anxia_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Anxia6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "Songkai6",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "songkai_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Songkai6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "SpearRemoveEntity",
+      "type": "gamerule",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear_remove_entity",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/gamerule"
+    },
+    {
+      "name": "StellarGodSpear",
+      "type": "animateditem",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_god_spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_god_spear.json",
+          "src/main/java/net/mcreator/stellarradiance/item/model/StellarGodSpearItemModel.java",
+          "src/main/java/net/mcreator/stellarradiance/item/renderer/StellarGodSpearItemRenderer.java",
+          "src/main/java/net/mcreator/stellarradiance/item/StellarGodSpearItem.java"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "Explosion",
+      "type": "command",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/command/ExplosionCommand.java"
+        ]
+      },
+      "path": "~/command"
+    },
+    {
+      "name": "ExplosionRun",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosion_run",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/ExplosionRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/command/liucheng"
+    },
+    {
+      "name": "PlayerFly",
+      "type": "command",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_fly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/command/PlayerFlyCommand.java"
+        ]
+      },
+      "path": "~/command"
+    },
+    {
+      "name": "SendPlayerFlyMessageBack",
+      "type": "gamerule",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "send_player_fly_message_back",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/gamerule"
+    },
+    {
+      "name": "Xhlg",
+      "type": "painting",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xhlg",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "G",
+      "type": "keybind",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/network/GMessage.java"
+        ]
+      },
+      "path": "~/command/anjian"
+    },
+    {
+      "name": "Anxia7",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anxia_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Anxia7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "Songkai7",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "songkai_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Songkai7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "LongTailedTit",
+      "type": "animatedentity",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_tailed_tit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/entity/model/LongTailedTitModel.java",
+          "src/main/resources/assets/stellar_radiance/models/item/long_tailed_tit_spawn_egg.json",
+          "src/main/java/net/mcreator/stellarradiance/client/renderer/LongTailedTitRenderer.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/LongTailedTitEntity.java",
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/long_tailed_tit_biome_modifier.json"
+        ]
+      },
+      "path": "~/entity"
+    },
+    {
+      "name": "Right1",
+      "type": "achievement",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/right_1.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "Right2",
+      "type": "achievement",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/right_2.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "R1",
+      "type": "achievement",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/r_1.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "R2",
+      "type": "achievement",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/r_2.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "B1",
+      "type": "achievement",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/b_1.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "B2",
+      "type": "achievement",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/b_2.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "X1",
+      "type": "achievement",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/x_1.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "X2",
+      "type": "achievement",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/x_2.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "V1",
+      "type": "achievement",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/v_1.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "V2",
+      "type": "achievement",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/v_2.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "G1",
+      "type": "achievement",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/g_1.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "G2",
+      "type": "achievement",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/g_2.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "Z1",
+      "type": "achievement",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "z_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/z_1.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "Z2",
+      "type": "achievement",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "z_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/z_2.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "U1",
+      "type": "achievement",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/u_1.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "U2",
+      "type": "achievement",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/u_2.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "Right",
+      "type": "keybind",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/network/RightMessage.java"
+        ]
+      },
+      "path": "~/command/anjian"
+    },
+    {
+      "name": "Anxia8",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anxia_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Anxia8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "Songkai8",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "songkai_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Songkai8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "Left1",
+      "type": "achievement",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "left_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/left_1.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "Left2",
+      "type": "achievement",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "left_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/left_2.json"
+        ]
+      },
+      "path": "~/chengjiu/execute"
+    },
+    {
+      "name": "Left",
+      "type": "keybind",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "left",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/network/LeftMessage.java"
+        ]
+      },
+      "path": "~/command/anjian"
+    },
+    {
+      "name": "Anxia9",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anxia_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Anxia9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "Songkai9",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "songkai_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Songkai9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/anjian/liucheng"
+    },
+    {
+      "name": "StellarRadianceWood",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_radiance_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_radiance_wood.json",
+          "src/main/java/net/mcreator/stellarradiance/block/StellarRadianceWoodBlock.java",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_radiance_wood.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_radiance_wood.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_radiance_wood.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "Woodlog",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodlog",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/woodlog.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Woodplanks",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodplanks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/woodplanks.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "ParasitizedStellarRadianceLog",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasitized_stellar_radiance_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/block/parasitized_stellar_radiance_log.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/parasitized_stellar_radiance_log.json",
+          "src/main/java/net/mcreator/stellarradiance/block/ParasitizedStellarRadianceLogBlock.java",
+          "src/main/resources/assets/stellar_radiance/blockstates/parasitized_stellar_radiance_log.json",
+          "src/main/resources/assets/stellar_radiance/models/item/parasitized_stellar_radiance_log.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "LogSummonMob",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_summon_mob",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/LogSummonMobProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block/liucheng"
+    },
+    {
+      "name": "StellarParasiter",
+      "type": "animatedentity",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_parasiter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_parasiter_spawn_egg.json",
+          "src/main/java/net/mcreator/stellarradiance/client/renderer/StellarParasiterRenderer.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/layer/StellarParasiterLayer.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/StellarParasiterEntity.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/model/StellarParasiterModel.java"
+        ]
+      },
+      "path": "~/entity"
+    },
+    {
+      "name": "WoodParasiteEvents",
+      "type": "gamerule",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_parasite_events",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/gamerule"
+    },
+    {
+      "name": "EntityNameMaxLength",
+      "type": "gamerule",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_name_max_length",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      },
+      "path": "~/gamerule"
+    },
+    {
+      "name": "EntityName",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_name",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/EntityNameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gamerule/liucheng"
+    },
+    {
+      "name": "Tree1",
+      "type": "feature",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/tree_1_biome_modifier.json",
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/tree_1.json",
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/tree_1.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "Tree2",
+      "type": "feature",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/tree_2.json",
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/tree_2.json",
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/tree_2_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "Tree3",
+      "type": "feature",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/tree_3.json",
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/tree_3.json",
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/tree_3_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "Tree4",
+      "type": "feature",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/tree_4.json",
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/tree_4_biome_modifier.json",
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/tree_4.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "Tree5",
+      "type": "feature",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/tree_5_biome_modifier.json",
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/tree_5.json",
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/tree_5.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "Tree6",
+      "type": "feature",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/forge/biome_modifier/tree_6_biome_modifier.json",
+          "src/main/resources/data/stellar_radiance/worldgen/configured_feature/tree_6.json",
+          "src/main/resources/data/stellar_radiance/worldgen/placed_feature/tree_6.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/biomeanddiwu"
+    },
+    {
+      "name": "Protecting",
+      "type": "potioneffect",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protecting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/potion/ProtectingMobEffect.java"
+        ]
+      },
+      "path": "~/effect"
+    },
+    {
+      "name": "ISProtecting",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_protecting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/ISProtectingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/effect/liucheng"
+    },
+    {
+      "name": "Stellar1C",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_1_c",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/Stellar1CProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/command/liucheng"
+    },
+    {
+      "name": "SRF1",
+      "type": "procedure",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "srf_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/SRF1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/liucheng"
+    },
+    {
+      "name": "GodSpearRight",
+      "type": "procedure",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_spear_right",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/GodSpearRightProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item/liucheng"
+    },
+    {
+      "name": "CrystalWirelessTransmitter",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_wireless_transmitter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/block/crystal_wireless_transmitter.json",
+          "src/main/java/net/mcreator/stellarradiance/block/CrystalWirelessTransmitterBlock.java",
+          "src/main/resources/assets/stellar_radiance/blockstates/crystal_wireless_transmitter.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/crystal_wireless_transmitter.json",
+          "src/main/resources/assets/stellar_radiance/models/item/crystal_wireless_transmitter.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "CrystalWirelessTransmitterOn",
+      "type": "block",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_wireless_transmitter_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/blockstates/crystal_wireless_transmitter_on.json",
+          "src/main/java/net/mcreator/stellarradiance/block/CrystalWirelessTransmitterOnBlock.java",
+          "src/main/resources/assets/stellar_radiance/models/item/crystal_wireless_transmitter_on.json",
+          "src/main/resources/assets/stellar_radiance/models/block/crystal_wireless_transmitter_on.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/crystal_wireless_transmitter_on.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "CrystalActiveBasePlate",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_active_base_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/crystal_active_base_plate.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/crystal_active_base_plate.json",
+          "src/main/resources/assets/stellar_radiance/models/item/crystal_active_base_plate.json",
+          "src/main/resources/assets/stellar_radiance/models/block/crystal_active_base_plate.json",
+          "src/main/java/net/mcreator/stellarradiance/block/CrystalActiveBasePlateBlock.java"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "ProcessedStellarCrystal",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processed_stellar_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/item/ProcessedStellarCrystalItem.java",
+          "src/main/resources/assets/stellar_radiance/models/item/processed_stellar_crystal.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "ActiveCrystal",
+      "type": "animatedentity",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "active_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/entity/ActiveCrystalEntity.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/layer/ActiveCrystalLayer.java",
+          "src/main/java/net/mcreator/stellarradiance/client/renderer/ActiveCrystalRenderer.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/model/ActiveCrystalModel.java"
+        ]
+      },
+      "path": "~/entity"
+    },
+    {
+      "name": "Chaishuijing",
+      "type": "procedure",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaishuijing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/ChaishuijingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entity/liucheng"
+    },
+    {
+      "name": "StellarCrystalPrism",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_crystal_prism",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_crystal_prism.json",
+          "src/main/java/net/mcreator/stellarradiance/item/StellarCrystalPrismItem.java"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "Zhuangshuijing",
+      "type": "procedure",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhuangshuijing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/ZhuangshuijingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block/liucheng"
+    },
+    {
+      "name": "PrismController",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prism_controller",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/item/PrismControllerItem.java",
+          "src/main/resources/assets/stellar_radiance/models/item/prism_controller.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "CrystalWirelessRecever",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_wireless_recever",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/crystal_wireless_recever.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/crystal_wireless_recever.json",
+          "src/main/java/net/mcreator/stellarradiance/block/CrystalWirelessReceverBlock.java",
+          "src/main/resources/assets/stellar_radiance/models/block/crystal_wireless_recever.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/crystal_wireless_recever.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "CrystalWirelessReceverOn",
+      "type": "block",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_wireless_recever_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/blockstates/crystal_wireless_recever_on.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/crystal_wireless_recever_on.json",
+          "src/main/resources/assets/stellar_radiance/models/item/crystal_wireless_recever_on.json",
+          "src/main/java/net/mcreator/stellarradiance/block/CrystalWirelessReceverOnBlock.java",
+          "src/main/resources/assets/stellar_radiance/models/block/crystal_wireless_recever_on.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "JingjiagongCrystal",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jingjiagong_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/jingjiagong_crystal.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Lengjing",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lengjing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/lengjing.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Fsq",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fsq",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/fsq.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Jsq",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jsq",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/jsq.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Kzq",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kzq",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/kzq.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Dizuo",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dizuo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/dizuo.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "EntityNameSpawn",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_name_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/EntityNameSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gamerule/liucheng"
+    },
+    {
+      "name": "ProtectingWhenUnderAttack",
+      "type": "procedure",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protecting_when_under_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/ProtectingWhenUnderAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/effect/liucheng"
+    },
+    {
+      "name": "OutOfDie",
+      "type": "achievement",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "out_of_die",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/out_of_die.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "StellarEnergyNexus",
+      "type": "animatedentity",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_energy_nexus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/entity/StellarEnergyNexusEntity.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/model/StellarEnergyNexusModel.java",
+          "src/main/java/net/mcreator/stellarradiance/entity/layer/StellarEnergyNexusLayer.java",
+          "src/main/java/net/mcreator/stellarradiance/client/renderer/StellarEnergyNexusRenderer.java",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_energy_nexus_spawn_egg.json"
+        ]
+      },
+      "path": "~/entity"
+    },
+    {
+      "name": "StellarChestFilledButDanger",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_chest_filled_but_danger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_chest_filled_but_danger.json",
+          "src/main/java/net/mcreator/stellarradiance/item/StellarChestFilledButDangerItem.java"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "ZhaoHuanBoss",
+      "type": "achievement",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhao_huan_boss",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/zhao_huan_boss.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "Hexin1",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hexin_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/hexin_1.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "StellarFence",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_fence.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_fence.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_fence.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_fence_post.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_fence.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_fence_inventory.json",
+          "src/main/java/net/mcreator/stellarradiance/block/StellarFenceBlock.java"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "StellarFenceGate",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/block/StellarFenceGateBlock.java",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_fence_gate.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_fence_gate_wall_open.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_fence_gate.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_fence_gate.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_fence_gate_open.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_fence_gate.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_fence_gate_wall.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "StellarTrapDoor",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_trap_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_trap_door.json",
+          "src/main/resources/data/stellar_radiance/loot_tables/blocks/stellar_trap_door.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_trap_door_open.json",
+          "src/main/resources/assets/stellar_radiance/blockstates/stellar_trap_door.json",
+          "src/main/resources/assets/stellar_radiance/models/block/stellar_trap_door_top.json",
+          "src/main/java/net/mcreator/stellarradiance/block/StellarTrapDoorBlock.java",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_trap_door.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "Zhalan",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhalan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/zhalan.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "ZhalanMen",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhalan_men",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/zhalan_men.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Toukui",
+      "type": "procedure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toukui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/ToukuiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item/liucheng"
+    },
+    {
+      "name": "StellarArmor",
+      "type": "armor",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_armor_chestplate.json",
+          "src/main/java/net/mcreator/stellarradiance/item/StellarArmorItem.java",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_armor_leggings.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_armor_boots.json",
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_armor_helmet.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "SetABlockNoAI",
+      "type": "gamerule",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_a_block_no_ai",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/gamerule"
+    },
+    {
+      "name": "IfNoAI",
+      "type": "procedure",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_no_ai",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/IfNoAIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entity/liucheng"
+    },
+    {
+      "name": "IFNOAIDIe",
+      "type": "procedure",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ifnoaid_ie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/IFNOAIDIeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entity/liucheng"
+    },
+    {
+      "name": "StellarRadianceBook",
+      "type": "item",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellar_radiance_book",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/stellar_radiance_book.json",
+          "src/main/java/net/mcreator/stellarradiance/item/StellarRadianceBookItem.java"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "GetBook",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_book",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stellarradiance/procedures/GetBookProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item/liucheng"
+    },
+    {
+      "name": "GetTheBook",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_the_book",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/get_the_book.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Book",
+      "type": "function",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/functions/book.mcfunction"
+        ]
+      },
+      "path": "~/command"
+    },
+    {
+      "name": "BookGet",
+      "type": "achievement",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "book_get",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/advancements/book_get.json"
+        ]
+      },
+      "path": "~/chengjiu"
+    },
+    {
+      "name": "Trapdoor",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stellar_radiance/recipes/trapdoor.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "MusicDiscEchoInTheValley",
+      "type": "musicdisc",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_echo_in_the_valley",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stellar_radiance/models/item/music_disc_echo_in_the_valley.json",
+          "src/main/java/net/mcreator/stellarradiance/item/MusicDiscEchoInTheValleyItem.java"
+        ]
+      },
+      "path": "~/item"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "echo_in_the_valley",
+      "files": [
+        "kong_gu_chuan_xiang_-echo_in_the_valley_1"
+      ],
+      "category": "record",
+      "subtitle": "音乐唱片：播放"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.STONE#0",
+      "~CUSTOM:StellarDirt",
+      "~Blocks.GRASS"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:StellarOreOnGround",
+      "~CUSTOM:DeepslateStellarOre",
+      "~CUSTOM:StellarOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:StellarOreOnGround",
+      "~CUSTOM:StellarGravelStone",
+      "~CUSTOM:StellarCrystalNature",
+      "~CUSTOM:StellarCrystalBlockNature",
+      "~CUSTOM:StellarBlock",
+      "~CUSTOM:StellarCrystalBlock",
+      "~CUSTOM:DeepslateStellarOre",
+      "~CUSTOM:StellarOre"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:StellarRadianceStairs"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:StellarTrapDoor",
+      "~CUSTOM:StellarFenceGate",
+      "~CUSTOM:StellarFence",
+      "~CUSTOM:ParasitizedStellarRadianceLog",
+      "~CUSTOM:StellarRadianceWood",
+      "~CUSTOM:FloatingStellarRadianceTreeRoot",
+      "~CUSTOM:StellarRadianceDoor",
+      "~CUSTOM:StellarRadianceSlab",
+      "~CUSTOM:StellarRadiancePlanks",
+      "~CUSTOM:StellarRadienceLog"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:StellarCrystalLands",
+      "~CUSTOM:StellarPlains",
+      "~CUSTOM:StellarRadienceForest"
+    ],
+    "BLOCKS:minecraft:beacon_base_blocks": [
+      "CUSTOM:StellarRadienceLog",
+      "CUSTOM:StellarRadiancePlanks",
+      "CUSTOM:StellarBlock",
+      "CUSTOM:StellarCrystalBlock",
+      "CUSTOM:StellarCrystalBlockNature",
+      "CUSTOM:StellarRadianceWood"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "CUSTOM:StellarRadienceLeaves"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:StellarRadianceSlab"
+    ],
+    "BLOCKS:mod:fsq": [
+      "CUSTOM:CrystalWirelessTransmitter",
+      "CUSTOM:CrystalWirelessTransmitterOn"
+    ],
+    "DAMAGE_TYPES:minecraft:bypasses_invulnerability": [
+      "CUSTOM:StellarImpreaction",
+      "OUT_OF_WORLD",
+      "GENERIC_KILL"
+    ],
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:StellarGravel",
+      "CUSTOM:StellarGravelStone",
+      "CUSTOM:StellarDirt"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:StellarFence"
+    ],
+    "ENTITIES:mod:stellar": [
+      "CUSTOM:Yxh",
+      "CUSTOM:StellarRadianceBird",
+      "CUSTOM:StellarEnergyNexus",
+      "CUSTOM:JiHuoDeHexin",
+      "CUSTOM:StellarCrystalArrow",
+      "CUSTOM:ABlock",
+      "CUSTOM:StellarParasiter",
+      "CUSTOM:ActiveCrystal"
+    ],
+    "BLOCKS:mod:fsqactiver": [
+      "Blocks.REDSTONE_BLOCK",
+      "CUSTOM:StellarCrystalBlock",
+      "Blocks.BEACON"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:StellarRadienceLog"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:StellarRadiancePlanks"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:StellarCrystalLands",
+      "~CUSTOM:StellarPlains",
+      "~CUSTOM:StellarRadienceForest"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:MusicDiscEchoInTheValley"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "advancements.left_2.descr": "按下了某一个按键",
+      "item.stellar_radiance.yxh_spawn_egg": "叶星虹的分身刷怪蛋",
+      "gamerule.sendPlayerFlyMessageBack": "PlayerFly指令返回信息提示",
+      "advancements.nadao_hexin.descr": "获得激活且稳定的星影核心",
+      "item.stellar_radiance.shattered_stellar_crystal_core": "破碎的星影晶核",
+      "item.stellar_radiance.stellar_energy_nexus_spawn_egg": "失控的星影核心刷怪蛋",
+      "advancements.da_ying_shou_wei.title": "你过关！",
+      "item.stellar_radiance.stellar_crystalash": "星辉晶尘",
+      "advancements.r_2.title": "按下按键",
+      "block.stellar_radiance.stellar_radience_log": "星辉原木",
+      "advancements.hejin.title": "星影合金锭",
+      "advancements.xinhuizhiyu.descr": "奇特的维度……",
+      "block.stellar_radiance.stellar_barrier": "星辉屏障",
+      "advancements.x_2.descr": "按下了某一个按键",
+      "advancements.g_1.descr": "按下了某一个按键",
+      "item.stellar_radiance.stellar_armor_leggings": "星影合金护腿",
+      "advancements.chi_hejin.title": "你吃了什么！我问你吃了什么！",
+      "block.stellar_radiance.stellar_radiance_stairs": "星辉木楼梯",
+      "block.stellar_radiance.stellar_radiance_wood": "星辉木头",
+      "advancements.x_1.title": "按下按键",
+      "advancements.yujin.title": "创世余烬",
+      "block.stellar_radiance.stellar_flower": "星辉兰",
+      "entity.stellar_radiance.a_block": "实心史莱姆(一个固体碰撞箱)",
+      "advancements.left_1.title": "按下按键",
+      "item.stellar_radiance.stellar_armor_chestplate": "星影合金胸甲",
+      "block.stellar_radiance.stellardizuo": "核心的基座",
+      "advancements.v_1.descr": "按下了某一个按键",
+      "advancements.right_2.title": "按下按键",
+      "gamerule.entityNameMaxLength.description": "名称过长的实体将会被清除",
+      "block.stellar_radiance.crystal_wireless_recever_on": "激活的水晶无线接收器",
+      "advancements.z_1.descr": "按下了某一个按键",
+      "advancements.spear.descr": "配方解锁",
+      "item.stellar_radiance.processed_stellar_crystal": "精加工星辉水晶",
+      "entity.stellar_radiance.long_tailed_tit": "北长尾山雀",
+      "item.stellar_radiance.stellar_god_spear": "【伪】 星影神枪",
+      "item.stellar_radiance.music_disc_echo_in_the_valley.desc": "lIl星虹流光lIl-空谷传响",
+      "item.stellar_radiance.stellar_radiance_bird_spawn_egg": "星辉鸟刷怪蛋",
+      "advancements.out_of_die.descr": "在星辰守护的加持下，承受一次近乎无限的伤害。最好的结果是你徘徊在生与死的交界处……",
+      "entity.stellar_radiance.stellar_crystal_arrow": "星晶箭",
+      "advancements.hexinjihuo.descr": "配方解锁",
+      "death.attack.stellar_impreaction": "%1$s被来自恒星的魔法杀死了",
+      "biome.stellar_radiance.stellar_plains": "星辉平原",
+      "advancements.u_2.title": "按下按键",
+      "item.stellar_radiance.prism_controller": "水晶棱镜控制器",
+      "entity.stellar_radiance.stellar_energy_nexus": "失控的星影核心",
+      "block.stellar_radiance.deepslate_stellar_ore": "深层星影水晶矿石",
+      "block.stellar_radiance.stellar_ore": "星辉水晶矿石",
+      "block.stellar_radiance.stellar_fence_gate": "星辉木栅栏门",
+      "advancements.book_get.descr": "-",
+      "block.stellar_radiance.stellar_fence": "星辉木栅栏",
+      "entity.stellar_radiance.ji_huo_de_hexin": "激活的核心",
+      "advancements.book_get.title": "拿到书",
+      "block.stellar_radiance.stellar_crystal_block": "星辉水晶块",
+      "painting.stellar_radiance.xhlg.author": "lIl星虹流光lIl",
+      "item.stellar_radiance.stellar_parasiter_spawn_egg": "星辉木寄生兽刷怪蛋",
+      "death.attack.stellar_impreaction.player": "%1$s试图逃过%2$s的攻击，但他失败了 ",
+      "effect.stellar_radiance.protecting": "星辰守护",
+      "block.stellar_radiance.crystal_wireless_transmitter": "水晶无线发射器",
+      "advancements.z_2.title": "按下按键",
+      "advancements.crystal.descr": "获得你的第一颗星辉水晶",
+      "advancements.g_2.title": "按下按键",
+      "block.stellar_radiance.stellar_radiance_slab": "星辉木台阶",
+      "gamerule.enableEntityClearance": "启用实体清除",
+      "item.stellar_radiance.stellar_armor_boots": "星影合金靴子",
+      "advancements.right_1.descr": "按下了某一个按键",
+      "key.stellar_radiance.left": "成就触发器 未预设按键1",
+      "block.stellar_radiance.stellar_ore_on_ground": "地表的星辉水晶矿石",
+      "item.stellar_radiance.stellar_chest_filled_but_danger": "激活的星影核心",
+      "block.stellar_radiance.stellar_trap_door": "星辉木活板门",
+      "key.stellar_radiance.right": "成就触发器 未预设按键2",
+      "gamerule.setABlockNoAI": "自动设置实心史莱姆无AI",
+      "block.stellar_radiance.stellar_block": "星影合金块",
+      "effect.stellar_radiance.imprecation": "星辰诅咒",
+      "advancements.root.descr": "这玩意上限很高的喔awa",
+      "advancements.v_2.title": "按下按键",
+      "gamerule.sendPlayerFlyMessageBack.description": "为true的时候，使用PlayerFly指令会返回消息提示",
+      "advancements.hexinjihuo.title": "配方",
+      "block.stellar_radiance.parasitized_stellar_radiance_log": "被寄生的星辉木",
+      "item_group.stellar_radiance.stellar_radiance_tab": "星·辉",
+      "subtitles.echo_in_the_valley": "音乐唱片：播放",
+      "block.stellar_radiance.stellar_crystal_nature": "自然生成的星辉水晶",
+      "advancements.shen_de_wu_qi.title": "星影神枪?",
+      "gamerule.modEntitySpeaking": "允许叶星虹的分身说话",
+      "advancements.hejin.descr": "合成星影合金锭 ",
+      "advancements.z_1.title": "按下按键",
+      "advancements.xinhuizhiyu.title": "星辉之域",
+      "entity.stellar_radiance.active_crystal": "星辉水晶棱镜",
+      "advancements.v_2.descr": "按下了某一个按键",
+      "advancements.r_2.descr": "按下了某一个按键",
+      "advancements.g_1.title": "按下按键",
+      "item.stellar_radiance.stellar_armor_helmet": "星影合金头盔",
+      "advancements.right_1.title": "按下按键",
+      "gamerule.woodParasiteEvents.description": "为false的时候，禁用生成寄生兽的检测",
+      "advancements.da_ying_shou_wei.descr": "击败星辰能量节点，并拿到破碎的核心……你需要一个容器让它正常工作",
+      "gamerule.spearRemoveEntity.description": "为true时，星影神枪会对被成功攻击的实体使用removeentity指令",
+      "advancements.nadao_hexin.title": "通往新维度的钥匙",
+      "block.stellar_radiance.stellar_gravel": "星辉砂砾",
+      "advancements.v_1.title": "按下按键",
+      "gamerule.entityNameMaxLength": "实体名称最大长度",
+      "advancements.right_2.descr": "按下了某一个按键",
+      "item.stellar_radiance.stellar_chest": "星影合金容器",
+      "advancements.yujin.descr": "那股创造世界的力量从未消散……",
+      "item.stellar_radiance.music_disc_echo_in_the_valley": "音乐唱片",
+      "advancements.chi_hejin.descr": "把费了老大劲获得的星影合金锭一口吞下去",
+      "advancements.z_2.descr": "按下了某一个按键",
+      "painting.stellar_radiance.xhlg.title": "(原创角色)叶星虹",
+      "advancements.root.title": "星辉！",
+      "biome.stellar_radiance.stellar_crystal_lands": "水晶丘陵",
+      "advancements.u_1.descr": "按下了某一个按键",
+      "entity.stellar_radiance.stellar_radiance_bird": "星辉鸟",
+      "block.stellar_radiance.stellar_radiance_planks": "星辉木板",
+      "block.stellar_radiance.crystal_active_base_plate": "激活用水晶基座",
+      "advancements.shen_de_wu_qi.descr": "这是一把超级强的武器（真的很强！）",
+      "advancements.b_1.descr": "按下了某一个按键",
+      "advancements.r_1.title": "按下按键",
+      "entity.stellar_radiance.stellar_parasiter": "星辉木寄生兽",
+      "item.stellar_radiance.long_tailed_tit_spawn_egg": "北长尾山雀刷怪蛋",
+      "advancements.x_1.descr": "按下了某一个按键",
+      "gamerule.setABlockNoAI.description": "使得实心史莱姆不会到处乱蹦，就像以前的版本一样",
+      "block.stellar_radiance.stellar_radience_leaves": "Stellar Radience Leaves",
+      "advancements.zhao_huan_boss.descr": "你将一个充满能量的容器放到了基座上，但是很显然这东西没有按照你的预期工作",
+      "block.stellar_radiance.stellar_crystal_block_nature": "自然生成的星辉水晶块",
+      "advancements.left_2.title": "按下按键",
+      "gamerule.nexusExplosionWhenDie": "能量节点死亡时爆炸",
+      "advancements.woodcraft.title": "木头配方解锁",
+      "advancements.g_2.descr": "按下了某一个按键",
+      "advancements.crystal.title": "星辉水晶！",
+      "item.stellar_radiance.stellar_ingot": "星影合金锭",
+      "death.attack.stellar_impreaction.item": "%1$s因%2$s %3$s上的星辰魔力而死",
+      "biome.stellar_radiance.stellar_radience_forest": "星辉森林",
+      "gamerule.enableEntityClearance.description": "当密码正确时， /removeentity指令可以使用",
+      "block.stellar_radiance.crystal_wireless_recever": "水晶无线接收器",
+      "item.stellar_radiance.stellar_crystal_prism": "星辉水晶棱镜",
+      "gamerule.nexusExplosionWhenDie.description": "设置为ture时，星辰能量节点在死亡时会发生爆炸",
+      "advancements.u_2.descr": "按下了某一个按键",
+      "entity.stellar_radiance.yxh": "叶星虹的分身",
+      "item.stellar_radiance.stellarcrystal": "星辉水晶",
+      "advancements.chi_xingchen.descr": "我不知道你是怎么吃下这种东西的 ",
+      "key.stellar_radiance.r": "成就触发器 R",
+      "key.stellar_radiance.u": "成就触发器 U",
+      "key.stellar_radiance.v": "成就触发器 V",
+      "key.stellar_radiance.x": "成就触发器 X",
+      "advancements.b_2.title": "按下按键",
+      "advancements.u_1.title": "按下按键",
+      "item.stellar_radiance.iron_stick": "铁棍",
+      "key.stellar_radiance.z": "成就触发器 Z",
+      "gamerule.modEntitySpeaking.description": "让叶星虹的分身开口说话awa",
+      "advancements.stellar_radiance_forest.title": "不要让树悬空！ ",
+      "advancements.b_2.descr": "按下了某一个按键",
+      "block.stellar_radiance.stellar_dirt": "星辉泥土",
+      "key.stellar_radiance.b": "成就触发器 B",
+      "item.stellar_radiance.stellar_radiance_book": "星辉之书",
+      "block.stellar_radiance.stellar_radiance_door": "星辉木门",
+      "key.stellar_radiance.g": "成就触发器 G",
+      "advancements.left_1.descr": "按下了某一个按键",
+      "advancements.woodcraft.descr": "解锁配方",
+      "advancements.zhao_huan_boss.title": "这是一个危险的事故！",
+      "advancements.stellar_radiance_forest.descr": "来到星辉森林",
+      "item.stellar_radiance.basic_stellar_spear": "初级星影权杖",
+      "gamerule.clearDeadEntities": "清除已死亡实体",
+      "advancements.chi_xingchen.title": "这你都吃？ ",
+      "advancements.spear.title": "Spear配方",
+      "gamerule.spearRemoveEntity": "星影神枪删除目标实体",
+      "block.stellar_radiance.stellar_gravel_stone": "星辉砂岩",
+      "advancements.r_1.descr": "按下了某一个按键",
+      "advancements.b_1.title": "按下按键",
+      "advancements.x_2.title": "按下按键",
+      "item.stellar_radiance.crushed_slime_ball": "揉碎的粘液球",
+      "item.stellar_radiance.stellar_chest_filled": "激活且稳定的星影核心",
+      "gamerule.woodParasiteEvents": "星辉木寄生兽生成",
+      "block.stellar_radiance.crystal_wireless_transmitter_on": "激活的水晶无线发射器",
+      "block.stellar_radiance.floating_stellar_radiance_tree_root": "星辉木的根",
+      "gamerule.clearDeadEntities.description": "移除已经死亡的实体，就像被青蛙一口吃掉一样，当然玩家除外",
+      "block.stellar_radiance.stellar_radience_branch": "星辉木枝条",
+      "item.stellar_radiance.stellar_radiance_feather": "星辉之羽",
+      "item.stellar_radiance.active_crystal_spawn_egg": "我不明白这东西是怎么出现的",
+      "item.stellar_radiance.stellar_radiance": "星辉 · 神明之心",
+      "advancements.out_of_die.title": "超越生死?"
+    },
+    "zh_cn": {
+      "item.stellar_radiance.yxh_spawn_egg": "叶星虹的分身刷怪蛋",
+      "advancements.left_2.descr": "按下了某一个按键",
+      "gamerule.sendPlayerFlyMessageBack": "PlayerFly指令返回信息提示",
+      "advancements.nadao_hexin.descr": "获得激活且稳定的星影核心",
+      "item.stellar_radiance.shattered_stellar_crystal_core": "破碎的星影晶核",
+      "item.stellar_radiance.stellar_energy_nexus_spawn_egg": "失控的星影核心刷怪蛋",
+      "advancements.da_ying_shou_wei.title": "你过关！",
+      "item.stellar_radiance.stellar_crystalash": "星辉晶尘",
+      "block.stellar_radiance.stellar_radience_log": "星辉原木",
+      "advancements.hejin.title": "星影合金锭",
+      "advancements.r_2.title": "按下按键",
+      "advancements.xinhuizhiyu.descr": "奇特的维度……",
+      "item.stellar_radiance.stellar_armor_leggings": "星影合金护腿",
+      "block.stellar_radiance.stellar_barrier": "星辉屏障",
+      "advancements.x_2.descr": "按下了某一个按键",
+      "advancements.g_1.descr": "按下了某一个按键",
+      "advancements.chi_hejin.title": "你吃了什么！我问你吃了什么！",
+      "block.stellar_radiance.stellar_radiance_stairs": "星辉木楼梯",
+      "block.stellar_radiance.stellar_radiance_wood": "星辉木头",
+      "advancements.x_1.title": "按下按键",
+      "advancements.yujin.title": "创世余烬",
+      "block.stellar_radiance.stellar_flower": "星辉兰",
+      "advancements.left_1.title": "按下按键",
+      "entity.stellar_radiance.a_block": "实心史莱姆(一个固体碰撞箱)",
+      "item.stellar_radiance.stellar_armor_chestplate": "星影合金胸甲",
+      "block.stellar_radiance.stellardizuo": "核心的基座",
+      "advancements.v_1.descr": "按下了某一个按键",
+      "advancements.right_2.title": "按下按键",
+      "gamerule.entityNameMaxLength.description": "名称过长的实体将会被清除",
+      "block.stellar_radiance.crystal_wireless_recever_on": "激活的水晶无线接收器",
+      "advancements.z_1.descr": "按下了某一个按键",
+      "advancements.spear.descr": "配方解锁",
+      "item.stellar_radiance.processed_stellar_crystal": "精加工星辉水晶",
+      "entity.stellar_radiance.long_tailed_tit": "北长尾山雀",
+      "item.stellar_radiance.stellar_god_spear": "【伪】 星影神枪",
+      "item.stellar_radiance.music_disc_echo_in_the_valley.desc": "lIl星虹流光lIl-空谷传响",
+      "item.stellar_radiance.stellar_radiance_bird_spawn_egg": "星辉鸟刷怪蛋",
+      "advancements.out_of_die.descr": "在星辰守护的加持下，承受一次近乎无限的伤害。最好的结果是你徘徊在生与死的交界处……",
+      "entity.stellar_radiance.stellar_crystal_arrow": "星晶箭",
+      "advancements.hexinjihuo.descr": "配方解锁",
+      "death.attack.stellar_impreaction": "%1$s被来自恒星的魔法杀死了",
+      "biome.stellar_radiance.stellar_plains": "星辉平原",
+      "advancements.u_2.title": "按下按键",
+      "item.stellar_radiance.prism_controller": "水晶棱镜控制器",
+      "entity.stellar_radiance.stellar_energy_nexus": "失控的星影核心",
+      "block.stellar_radiance.deepslate_stellar_ore": "深层星影水晶矿石",
+      "block.stellar_radiance.stellar_ore": "星辉水晶矿石",
+      "block.stellar_radiance.stellar_fence_gate": "星辉木栅栏门",
+      "advancements.book_get.descr": "-",
+      "block.stellar_radiance.stellar_fence": "星辉木栅栏",
+      "entity.stellar_radiance.ji_huo_de_hexin": "激活的核心",
+      "advancements.book_get.title": "拿到书",
+      "block.stellar_radiance.stellar_crystal_block": "星辉水晶块",
+      "painting.stellar_radiance.xhlg.author": "lIl星虹流光lIl",
+      "item.stellar_radiance.stellar_parasiter_spawn_egg": "星辉木寄生兽刷怪蛋",
+      "death.attack.stellar_impreaction.player": "%1$s试图逃过%2$s的攻击，但他失败了 ",
+      "effect.stellar_radiance.protecting": "星辰守护",
+      "block.stellar_radiance.crystal_wireless_transmitter": "水晶无线发射器",
+      "advancements.z_2.title": "按下按键",
+      "advancements.crystal.descr": "获得你的第一颗星辉水晶",
+      "advancements.g_2.title": "按下按键",
+      "block.stellar_radiance.stellar_radiance_slab": "星辉木台阶",
+      "gamerule.enableEntityClearance": "启用实体清除",
+      "item.stellar_radiance.stellar_armor_boots": "星影合金靴子",
+      "advancements.right_1.descr": "按下了某一个按键",
+      "key.stellar_radiance.left": "成就触发器 未预设按键1",
+      "block.stellar_radiance.stellar_ore_on_ground": "地表的星辉水晶矿石",
+      "item.stellar_radiance.stellar_chest_filled_but_danger": "激活的星影核心",
+      "block.stellar_radiance.stellar_trap_door": "星辉木活板门",
+      "key.stellar_radiance.right": "成就触发器 未预设按键2",
+      "gamerule.setABlockNoAI": "自动设置实心史莱姆无AI",
+      "block.stellar_radiance.stellar_block": "星影合金块",
+      "effect.stellar_radiance.imprecation": "星辰诅咒",
+      "advancements.root.descr": "§b感谢你游玩这个mod！——lIl星虹流光lIl",
+      "advancements.v_2.title": "按下按键",
+      "gamerule.sendPlayerFlyMessageBack.description": "为true的时候，使用PlayerFly指令会返回消息提示",
+      "advancements.hexinjihuo.title": "配方",
+      "block.stellar_radiance.parasitized_stellar_radiance_log": "被寄生的星辉木",
+      "item_group.stellar_radiance.stellar_radiance_tab": "星·辉",
+      "subtitles.echo_in_the_valley": "音乐唱片",
+      "block.stellar_radiance.stellar_crystal_nature": "自然生成的星辉水晶",
+      "advancements.shen_de_wu_qi.title": "星影神枪?",
+      "gamerule.modEntitySpeaking": "允许叶星虹的分身说话",
+      "advancements.hejin.descr": "合成星影合金锭 ",
+      "advancements.z_1.title": "按下按键",
+      "advancements.xinhuizhiyu.title": "星辉之域",
+      "entity.stellar_radiance.active_crystal": "星辉水晶棱镜",
+      "advancements.v_2.descr": "按下了某一个按键",
+      "advancements.r_2.descr": "按下了某一个按键",
+      "advancements.g_1.title": "按下按键",
+      "item.stellar_radiance.stellar_armor_helmet": "星影合金头盔",
+      "advancements.right_1.title": "按下按键",
+      "gamerule.woodParasiteEvents.description": "为false的时候，禁用生成寄生兽的检测",
+      "advancements.da_ying_shou_wei.descr": "击毁失控的星影核心，并拿到破碎的核心……你需要一个容器让它正常工作",
+      "gamerule.spearRemoveEntity.description": "为true时，星影神枪会对被成功攻击的实体使用removeentity指令",
+      "advancements.nadao_hexin.title": "通往新维度的钥匙",
+      "block.stellar_radiance.stellar_gravel": "星辉砂砾",
+      "advancements.v_1.title": "按下按键",
+      "gamerule.entityNameMaxLength": "实体名称最大长度",
+      "advancements.right_2.descr": "按下了某一个按键",
+      "item.stellar_radiance.stellar_chest": "星影合金容器",
+      "advancements.yujin.descr": "那股创造世界的力量从未消散……",
+      "item.stellar_radiance.music_disc_echo_in_the_valley": "音乐唱片",
+      "advancements.chi_hejin.descr": "把费了老大劲获得的星影合金锭一口吞下去",
+      "advancements.z_2.descr": "按下了某一个按键",
+      "painting.stellar_radiance.xhlg.title": "(原创角色)叶星虹",
+      "advancements.root.title": "星·辉!",
+      "biome.stellar_radiance.stellar_crystal_lands": "水晶丘陵",
+      "advancements.u_1.descr": "按下了某一个按键",
+      "entity.stellar_radiance.stellar_radiance_bird": "星辉鸟",
+      "block.stellar_radiance.stellar_radiance_planks": "星辉木板",
+      "block.stellar_radiance.crystal_active_base_plate": "激活用水晶基座",
+      "advancements.shen_de_wu_qi.descr": "这玩意上限很高的喔awa",
+      "advancements.b_1.descr": "按下了某一个按键",
+      "advancements.r_1.title": "按下按键",
+      "entity.stellar_radiance.stellar_parasiter": "星辉木寄生兽",
+      "item.stellar_radiance.long_tailed_tit_spawn_egg": "北长尾山雀刷怪蛋",
+      "advancements.x_1.descr": "按下了某一个按键",
+      "gamerule.setABlockNoAI.description": "使得实心史莱姆不会到处乱蹦，就像以前的版本一样",
+      "block.stellar_radiance.stellar_radience_leaves": "星辉树叶",
+      "advancements.zhao_huan_boss.descr": "你将一个充满能量的容器放到了基座上，但是很显然这东西没有按照你的预期工作",
+      "block.stellar_radiance.stellar_crystal_block_nature": "自然生成的星辉水晶块",
+      "advancements.left_2.title": "按下按键",
+      "gamerule.nexusExplosionWhenDie": "能量节点死亡时爆炸",
+      "advancements.woodcraft.title": "木头配方解锁",
+      "advancements.g_2.descr": "按下了某一个按键",
+      "advancements.crystal.title": "星辉水晶！",
+      "item.stellar_radiance.stellar_ingot": "星影合金锭",
+      "death.attack.stellar_impreaction.item": "%1$s因%2$s %3$s上的星辰魔力而死",
+      "biome.stellar_radiance.stellar_radience_forest": "星辉森林",
+      "gamerule.enableEntityClearance.description": "当密码正确时， /removeentity指令可以使用",
+      "block.stellar_radiance.crystal_wireless_recever": "水晶无线接收器",
+      "item.stellar_radiance.stellar_crystal_prism": "星辉水晶棱镜",
+      "gamerule.nexusExplosionWhenDie.description": "设置为ture时，星辰能量节点在死亡时会发生爆炸",
+      "advancements.u_2.descr": "按下了某一个按键",
+      "entity.stellar_radiance.yxh": "叶星虹的分身",
+      "item.stellar_radiance.stellarcrystal": "星辉水晶",
+      "advancements.chi_xingchen.descr": "我不知道你是怎么吃下这种东西的 ",
+      "key.stellar_radiance.r": "成就触发器 R",
+      "key.stellar_radiance.u": "成就触发器 U",
+      "key.stellar_radiance.v": "成就触发器 V",
+      "key.stellar_radiance.x": "成就触发器 X",
+      "advancements.b_2.title": "按下按键",
+      "advancements.u_1.title": "按下按键",
+      "item.stellar_radiance.iron_stick": "铁棍",
+      "key.stellar_radiance.z": "成就触发器 Z",
+      "gamerule.modEntitySpeaking.description": "让叶星虹的分身开口说话awa",
+      "advancements.stellar_radiance_forest.title": "不要让树悬空！ ",
+      "advancements.b_2.descr": "按下了某一个按键",
+      "block.stellar_radiance.stellar_dirt": "星辉泥土",
+      "key.stellar_radiance.b": "成就触发器 B",
+      "item.stellar_radiance.stellar_radiance_book": "星辉之书",
+      "block.stellar_radiance.stellar_radiance_door": "星辉木门",
+      "key.stellar_radiance.g": "成就触发器 G",
+      "advancements.left_1.descr": "按下了某一个按键",
+      "advancements.woodcraft.descr": "解锁配方",
+      "advancements.zhao_huan_boss.title": "这是一个危险的事故！",
+      "advancements.stellar_radiance_forest.descr": "来到星辉森林",
+      "item.stellar_radiance.basic_stellar_spear": "初级星影权杖",
+      "gamerule.clearDeadEntities": "清除已死亡实体",
+      "advancements.chi_xingchen.title": "这你都吃？ ",
+      "advancements.spear.title": "Spear配方",
+      "gamerule.spearRemoveEntity": "星影神枪删除目标实体",
+      "block.stellar_radiance.stellar_gravel_stone": "星辉砂岩",
+      "advancements.r_1.descr": "按下了某一个按键",
+      "advancements.b_1.title": "按下按键",
+      "advancements.x_2.title": "按下按键",
+      "item.stellar_radiance.crushed_slime_ball": "揉碎的粘液球",
+      "item.stellar_radiance.stellar_chest_filled": "激活且稳定的星影核心",
+      "gamerule.woodParasiteEvents": "星辉木寄生兽生成",
+      "block.stellar_radiance.crystal_wireless_transmitter_on": "激活态的水晶无线发射器",
+      "block.stellar_radiance.floating_stellar_radiance_tree_root": "星辉木的根",
+      "gamerule.clearDeadEntities.description": "移除已经死亡的实体，就像被青蛙一口吃掉一样，当然玩家除外",
+      "block.stellar_radiance.stellar_radience_branch": "星辉木枝条",
+      "item.stellar_radiance.stellar_radiance_feather": "星辉之羽",
+      "item.stellar_radiance.active_crystal_spawn_egg": "我不明白这东西是怎么出现的",
+      "item.stellar_radiance.stellar_radiance": "星辉·神明之心",
+      "advancements.out_of_die.title": "超越生死?"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "entity",
+        "children": [
+          {
+            "name": "liucheng",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "effect",
+        "children": [
+          {
+            "name": "liucheng",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "damage",
+        "children": []
+      },
+      {
+        "name": "gamerule",
+        "children": [
+          {
+            "name": "liucheng",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "command",
+        "children": [
+          {
+            "name": "liucheng",
+            "children": []
+          },
+          {
+            "name": "anjian",
+            "children": [
+              {
+                "name": "liucheng",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "biomeanddiwu",
+        "children": []
+      },
+      {
+        "name": "block",
+        "children": [
+          {
+            "name": "liucheng",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "item",
+        "children": [
+          {
+            "name": "liucheng",
+            "children": [
+              {
+                "name": "godspear",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "peifang",
+        "children": []
+      },
+      {
+        "name": "chengjiu",
+        "children": [
+          {
+            "name": "execute",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "dimention",
+        "children": []
+      },
+      {
+        "name": "particle",
+        "children": []
+      },
+      {
+        "name": "enchant",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "stellar_radiance",
+    "modName": "星·辉",
+    "version": "1.2.1",
+    "description": "你不是网易版的吗，你是怎么看见这个的？？",
+    "author": "lIl星虹流光lIl, MCreator",
+    "websiteURL": "https://b23.tv/hm8ia8d",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "pack",
+    "requiredMods": [
+      "geckolib"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "本mod大部分使用MCreator制作 - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.stellarradiance"
+  },
+  "mcreatorVersion": 202400118518
+}

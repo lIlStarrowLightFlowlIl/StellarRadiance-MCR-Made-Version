@@ -1,0 +1,15 @@
+{
+  "_fv": 60,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "X",
+    "keyBindingName": "空白触发器3",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Anxia3"
+    },
+    "onKeyReleased": {
+      "name": "Songkai3"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 60,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "星辰诅咒 ",
+    "icon": "imprecaton.png",
+    "color": {
+      "value": -13434625,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "Impreaction_tick"
+    }
+  }
+}

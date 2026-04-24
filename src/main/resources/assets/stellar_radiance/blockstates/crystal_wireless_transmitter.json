@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "stellar_radiance:block/crystal_wireless_transmitter"
+    }
+  }
+}

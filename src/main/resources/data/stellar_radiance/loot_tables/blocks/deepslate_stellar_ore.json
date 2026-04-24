@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "stellar_radiance:blocks/deepslate_stellar_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stellar_radiance:stellarcrystal",
+          "functions": [
+            {
+              "count": 6,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

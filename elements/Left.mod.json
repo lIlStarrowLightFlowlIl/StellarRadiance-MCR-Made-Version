@@ -1,0 +1,15 @@
+{
+  "_fv": 60,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NONE",
+    "keyBindingName": "成就触发器 未预设按键1",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Anxia8"
+    },
+    "onKeyReleased": {
+      "name": "Songkai8"
+    }
+  }
+}

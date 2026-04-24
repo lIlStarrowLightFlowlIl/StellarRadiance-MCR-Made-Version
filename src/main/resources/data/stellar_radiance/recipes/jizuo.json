@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bab",
+    "ccd"
+  ],
+  "key": {
+    "a": {
+      "item": "stellar_radiance:stellar_ingot"
+    },
+    "b": {
+      "item": "stellar_radiance:stellarcrystal"
+    },
+    "c": {
+      "item": "minecraft:polished_andesite"
+    },
+    "d": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "stellar_radiance:stellardizuo",
+    "count": 1
+  }
+}

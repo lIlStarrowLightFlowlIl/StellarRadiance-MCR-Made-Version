@@ -1,0 +1,12 @@
+{
+  "_fv": 60,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "实体名称最大长度",
+    "description": "名称过长的实体将会被清除",
+    "category": "MISC",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 65535
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "stellar_radiance:block/parasitized_stellar_radiance_log"
+    },
+    "facing=east": {
+      "model": "stellar_radiance:block/parasitized_stellar_radiance_log",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "stellar_radiance:block/parasitized_stellar_radiance_log",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "stellar_radiance:block/parasitized_stellar_radiance_log",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "stellar_radiance:block/parasitized_stellar_radiance_log",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "stellar_radiance:block/parasitized_stellar_radiance_log",
+      "x": 90
+    }
+  }
+}

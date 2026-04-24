@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "stellar_radiance:stellar_ingot"
+    },
+    "title": {
+      "translate": "advancements.chi_hejin.title"
+    },
+    "description": {
+      "translate": "advancements.chi_hejin.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "chi_hejin_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "stellar_radiance:stellar_ingot"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "stellar_radiance:hejin"
+}

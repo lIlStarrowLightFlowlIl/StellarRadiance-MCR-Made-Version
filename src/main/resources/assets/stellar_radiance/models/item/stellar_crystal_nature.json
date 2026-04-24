@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "stellar_radiance:item/crystal_small"
+  },
+  "render_type": "translucent"
+}

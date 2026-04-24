@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "item": "stellar_radiance:stellar_radience_branch"
+    },
+    "title": {
+      "translate": "advancements.stellar_radiance_forest.title"
+    },
+    "description": {
+      "translate": "advancements.stellar_radiance_forest.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stellar_radiance_forest_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "stellar_radiance:stellar_radience_forest"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "stellar_radiance:doorcraft",
+      "stellar_radiance:door_craft_1",
+      "stellar_radiance:staircraft",
+      "stellar_radiance:slabcraft",
+      "stellar_radiance:zhalan",
+      "stellar_radiance:zhalan_men",
+      "stellar_radiance:hechengmuban",
+      "stellar_radiance:trapdoor"
+    ]
+  },
+  "parent": "stellar_radiance:root"
+}

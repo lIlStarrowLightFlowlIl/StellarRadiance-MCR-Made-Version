@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:deepslate"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "stellar_radiance:processed_stellar_crystal"
+    }
+  },
+  "result": {
+    "item": "stellar_radiance:stellar_crystal_prism",
+    "count": 1
+  }
+}
