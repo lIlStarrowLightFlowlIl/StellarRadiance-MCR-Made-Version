@@ -1,6 +1,0 @@
-{
-  "parent": "stellar_radiance:displaysettings/stellar_god_spear_geo.item",
-  "textures": {
-    "layer0": "stellar_radiance:item/stellar_god_spear_geo"
-  }
-}

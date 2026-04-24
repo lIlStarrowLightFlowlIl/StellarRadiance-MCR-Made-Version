@@ -1,9 +1,0 @@
-{
-  "parent": "stellar_radiance:custom/stellar_dizuo",
-  "textures": {
-    "all": "stellar_radiance:block/stellar_dizuo",
-    "particle": "stellar_radiance:block/stellar_dizuo",
-    "0": "stellar_radiance:block/stellar_dizuo"
-  },
-  "render_type": "solid"
-}

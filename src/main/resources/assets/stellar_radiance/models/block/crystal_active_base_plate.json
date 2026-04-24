@@ -1,9 +1,0 @@
-{
-  "parent": "stellar_radiance:custom/crystal_active_base_plate",
-  "textures": {
-    "all": "stellar_radiance:block/crystal_active_base_plate",
-    "particle": "stellar_radiance:block/crystal_active_base_plate",
-    "0": "stellar_radiance:block/crystal_active_base_plate"
-  },
-  "render_type": "cutout"
-}

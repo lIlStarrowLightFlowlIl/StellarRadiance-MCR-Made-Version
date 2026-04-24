@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "stellar_radiance:stellar_radience_forest",
-  "features": "stellar_radiance:stellar_small_tree",
-  "step": "surface_structures"
-}

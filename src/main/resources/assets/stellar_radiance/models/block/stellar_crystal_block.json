@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "stellar_radiance:block/stellar_crystal_block",
-    "particle": "stellar_radiance:block/stellar_crystal_block"
-  },
-  "render_type": "translucent"
-}

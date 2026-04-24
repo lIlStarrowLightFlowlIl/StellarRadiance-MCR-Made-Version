@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "stellar_radiance:stellar_gravel",
-    "stellar_radiance:stellar_gravel_stone",
-    "stellar_radiance:stellar_dirt"
-  ]
-}
