@@ -1,9 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": [
-    "stellar_radiance:stellar_radience_forest",
-    "stellar_radiance:stellar_plains"
-  ],
-  "features": "stellar_radiance:stellar_stone",
-  "step": "top_layer_modification"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "stellar_radiance:block/gravel",
-    "particle": "stellar_radiance:block/gravel"
-  },
-  "render_type": "cutout"
-}

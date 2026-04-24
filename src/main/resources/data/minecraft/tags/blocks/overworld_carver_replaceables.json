@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "minecraft:stone",
-    "stellar_radiance:stellar_dirt",
-    "minecraft:grass_block"
-  ]
-}

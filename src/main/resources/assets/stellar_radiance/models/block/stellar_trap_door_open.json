@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_open",
-  "textures": {
-    "texture": "stellar_radiance:block/stellar_trap_door",
-    "particle": "stellar_radiance:block/stellar_trap_door"
-  },
-  "render_type": "cutout"
-}

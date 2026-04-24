@@ -1,8 +1,0 @@
-{
-    "providers": [
-        {
-            "type": "ttf",
-            "file": "stellar_radiance:font/realstic_basic"
-        }
-    ]
-}

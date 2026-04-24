@@ -1,9 +1,0 @@
-{
-  "parent": "stellar_radiance:custom/crystal_wireless_recever",
-  "textures": {
-    "all": "stellar_radiance:block/crystal_wireless_recever",
-    "particle": "stellar_radiance:block/crystal_wireless_recever",
-    "0": "stellar_radiance:block/crystal_wireless_recever"
-  },
-  "render_type": "cutout"
-}

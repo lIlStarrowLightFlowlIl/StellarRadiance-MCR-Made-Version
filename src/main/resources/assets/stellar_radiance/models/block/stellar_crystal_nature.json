@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "stellar_radiance:block/crystal_small",
-    "particle": "stellar_radiance:block/crystal_small"
-  },
-  "render_type": "cutout"
-}

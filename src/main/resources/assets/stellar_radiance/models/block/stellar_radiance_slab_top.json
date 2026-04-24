@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "stellar_radiance:block/stellar_radiance_planks",
-    "top": "stellar_radiance:block/stellar_radiance_planks",
-    "side": "stellar_radiance:block/stellar_radiance_planks"
-  },
-  "render_type": "solid"
-}

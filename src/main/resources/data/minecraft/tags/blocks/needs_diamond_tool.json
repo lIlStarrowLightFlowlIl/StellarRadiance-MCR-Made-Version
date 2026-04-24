@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "stellar_radiance:stellar_ore_on_ground",
-    "stellar_radiance:deepslate_stellar_ore",
-    "stellar_radiance:stellar_ore"
-  ]
-}

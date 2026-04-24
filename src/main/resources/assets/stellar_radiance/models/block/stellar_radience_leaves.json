@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "stellar_radiance:block/stellar_radience_leaves",
-    "particle": "stellar_radiance:block/stellar_radience_leaves"
-  },
-  "render_type": "cutout"
-}

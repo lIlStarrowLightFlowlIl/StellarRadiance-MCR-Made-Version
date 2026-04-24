@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "stellar_radiance:block/deepslate_stellar_ore",
-    "particle": "stellar_radiance:block/deepslate_stellar_ore"
-  },
-  "render_type": "cutout"
-}
