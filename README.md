@@ -10,7 +10,7 @@
 ---
 <h2 id="zh">简体中文</h2>
 <details open>
-<summary><b>中文</b></summary>
+<summary><b>展开</b></summary>
 
 # 模组简介
 
@@ -130,7 +130,7 @@ ABlock是一种没有模型，碰撞箱大小可调的生物，开启后自动�
 
 <h2 id="en">English</h2>
 <details>
-<summary><b>English</b></summary>
+<summary><b>Expand</b></summary>
 
 # About the Mod
 *The English text is AI-generated and may contain errors.*
