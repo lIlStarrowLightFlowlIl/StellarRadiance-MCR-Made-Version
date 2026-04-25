@@ -11,7 +11,7 @@ logs/
 *.log
 
 #backups
-.mcreator\workspaceBackups
+.mcreator/workspaceBackups/
 
 # 工作区锁文件
 workspace.lock
