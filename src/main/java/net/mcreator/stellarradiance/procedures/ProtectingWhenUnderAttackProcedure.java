@@ -44,7 +44,7 @@ public class ProtectingWhenUnderAttackProcedure {
 				_player.getFoodData().setFoodLevel(20);
 			if (entity instanceof Player _player)
 				_player.getFoodData().setSaturation(10);
-			if (amount >= 3.4 * Math.pow(10, 38)) {
+			if (amount >= 3.4 * Math.pow(10, 38) && entity.isAlive()) {
 				if (entity instanceof ServerPlayer _player) {
 					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("stellar_radiance:out_of_die"));
 					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);

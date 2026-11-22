@@ -48,7 +48,7 @@
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 3.0,

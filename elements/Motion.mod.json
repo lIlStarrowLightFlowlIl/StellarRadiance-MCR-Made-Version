@@ -1,0 +1,10 @@
+{
+  "_fv": 60,
+  "_type": "command",
+  "definition": {
+    "commandName": "motion",
+    "type": "STANDARD",
+    "permissionLevel": "2",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"131\" y=\"25\"><next><block type=\"literal\"><field name=\"name\">overrite</field><statement name=\"args\"><block type=\"entity\"><field name=\"name\">target</field><field name=\"type\">entities</field><statement name=\"args\"><block type=\"number_min_max\"><field name=\"name\">multiplier</field><field name=\"min\">0</field><field name=\"max\">64</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">MotionTarget</field></block></statement><next><block type=\"literal\"><field name=\"name\">from</field><statement name=\"args\"><block type=\"entity\"><field name=\"name\">base</field><field name=\"type\">entity</field><statement name=\"args\"><block type=\"literal\"><field name=\"name\">motion</field><statement name=\"args\"><block type=\"number_min_max\"><field name=\"name\">multiplier</field><field name=\"min\">0</field><field name=\"max\">64</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">MotionTarget1</field></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">rotation</field><statement name=\"args\"><block type=\"number_min_max\"><field name=\"name\">multiplier</field><field name=\"min\">0</field><field name=\"max\">64</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">MotionTarget2</field></block></statement></block></statement></block></next></block></statement></block></statement></block></next></block></statement></block></statement></block></next></block></xml>"
+  }
+}
